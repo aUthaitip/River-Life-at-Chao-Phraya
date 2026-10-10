@@ -28,13 +28,13 @@ export default function Header({
   const displayEmail = profile.email === "ยังไม่ได้เข้าสู่ระบบ" && en ? "Not logged in" : profile.email;
 
   return (
-    <header className={`market-header ${page === "tickets" ? "market-header-dark !border-white/10 !bg-gradient-to-b !from-[#071c37]/80 !via-[#102641]/80 !to-[#071c37]/80 !text-white" : "!border-[#091d3a]/10 !bg-gradient-to-b !from-white/80 !via-[#f8fafc]/80 !to-white/80 !text-[#091d3a]"} !sticky !top-4 !z-50 !max-w-[calc(100%-2rem)] xl:!max-w-7xl !mx-auto !py-[6px] xl:!px-6 !rounded-4xl !backdrop-blur-md !border !shadow-sm transition-colors duration-300 !font-medium`}>
+    <header className={`market-header ${page === "tickets" ? "!border-white/10 !text-white" : "!border-[rgba(212,175,55,0.2)] !text-white"} !bg-[#080c13]/40 !fixed !left-0 !right-0 !top-4 !z-50 !max-w-[calc(100%-2rem)] xl:!max-w-7xl !mx-auto !py-[6px] xl:!px-6 !rounded-4xl !backdrop-blur-xl !border !shadow-sm transition-colors duration-300 !font-medium`}>
       <button
         className="river-brand"
         onClick={() => go("home")}
         aria-label={en ? "Back to cruise homepage" : "กลับไปหน้าจองล่องเรือ"}
       >
-        <img src="/images/river-life-logo-web.webp" alt="" />
+        
         <span>
           RIVER LIFE <small>CHAO PHRAYA CRUISES</small>
         </span>

@@ -6,6 +6,7 @@ import IconButton from "@mui/material/IconButton";
 import { X } from "lucide-react";
 import Header from "./components/layout/Header";
 import Footer from "./components/layout/Footer";
+import ScrollToTop from "./components/shared/ScrollToTop";
 import EventDetail from "./components/page/EventDetail";
 import Home from "./components/page/Home";
 import BoatMap from "./components/booking/BoatMap";
@@ -392,6 +393,7 @@ export default function App() {
           }}
         />
       </Dialog>
+      <ScrollToTop />
       <Footer language={language} />
     </>
   );
