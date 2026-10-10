@@ -3546,7 +3546,7 @@ td small {
   padding: 23px 0 17px;
   color: #1c2c43;
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 500;
 }
 .market-header nav .active::after {
   height: 2px;
