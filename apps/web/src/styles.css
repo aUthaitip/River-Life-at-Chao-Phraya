@@ -6219,17 +6219,192 @@ button:hover {
   color: #080c13;
 }
 
-/* Force pure white text for all header items */
+/* High-contrast Logo and Header items */
 .market-header nav button,
-.market-header .river-brand,
-.market-header .river-brand span,
 .market-header .market-tools button,
 .market-header .mobile-nav-toggle {
   color: #ffffff !important;
+  font-weight: 500 !important;
 }
 
-/* Make sure active state still looks good */
+.market-header .river-brand {
+  color: #ffffff !important;
+  text-decoration: none !important;
+}
+
+.market-header .river-brand strong,
+.market-header .river-brand span {
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  letter-spacing: 1.5px !important;
+}
+
+.market-header .river-brand small {
+  color: #d4af37 !important;
+  font-weight: 600 !important;
+  letter-spacing: 2px !important;
+  text-shadow: 0 0 10px rgba(212, 175, 55, 0.4);
+}
+
 .market-header nav button.active {
+  color: #d4af37 !important;
+  font-weight: 600 !important;
+}
+
+/* ==========================================================================
+   CONCERT & EVENT DETAIL PAGE (/concert) - High Contrast Dark Luxury Theme
+   ========================================================================== */
+.page-event {
+  color: #e5e0d8 !important;
+}
+
+.page-event .event-breadcrumb {
+  color: #d4af37 !important;
+  font-weight: 600 !important;
+}
+
+.page-event .event-purchase-card {
+  background: #111114 !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6) !important;
+}
+
+.page-event .event-purchase-info {
+  color: #e5e0d8 !important;
+}
+
+.page-event .event-purchase-info h1 {
+  color: #ffffff !important;
+  font-family: var(--heading-font) !important;
+  font-weight: 700 !important;
+}
+
+.page-event .event-purchase-summary {
+  color: #a0aec0 !important;
+  font-size: 16px !important;
+}
+
+.page-event .event-key-details dt {
+  background: rgba(212, 175, 55, 0.12) !important;
+  color: #d4af37 !important;
+  border: 1px solid rgba(212, 175, 55, 0.25) !important;
+}
+
+.page-event .event-key-details dd span {
+  color: #a0aec0 !important;
+  font-size: 14px !important;
+}
+
+.page-event .event-key-details dd strong {
+  color: #ffffff !important;
+  font-size: 15px !important;
+  font-weight: 600 !important;
+}
+
+.page-event .event-buy-button {
+  background: linear-gradient(135deg, #d4af37, #b8962c) !important;
+  color: #080c13 !important;
+  font-weight: 700 !important;
+  box-shadow: 0 4px 20px rgba(212, 175, 55, 0.35) !important;
+}
+
+.page-event .event-buy-button:hover:not(:disabled) {
+  background: linear-gradient(135deg, #f0c75e, #d4af37) !important;
+  transform: translateY(-2px) !important;
+  box-shadow: 0 8px 25px rgba(212, 175, 55, 0.5) !important;
+}
+
+/* Event detail content & Highlights */
+.page-event .event-detail-content {
+  color: #e5e0d8 !important;
+}
+
+.page-event .event-detail-content h2 {
+  color: #d4af37 !important;
+  font-family: var(--heading-font) !important;
+}
+
+.page-event .event-detail-content > article > p {
+  color: #a0aec0 !important;
+}
+
+.page-event .event-detail-highlights {
+  border-top-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+.page-event .event-detail-highlights span {
+  background: rgba(212, 175, 55, 0.12) !important;
+  color: #d4af37 !important;
+  border: 1px solid rgba(212, 175, 55, 0.25) !important;
+}
+
+.page-event .event-detail-highlights strong {
+  color: #ffffff !important;
+}
+
+.page-event .event-detail-highlights p {
+  color: #a0aec0 !important;
+}
+
+/* Boarding point card */
+.page-event .event-boarding-card {
+  background: #111114 !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  color: #e5e0d8 !important;
+}
+
+.page-event .event-boarding-card h2 {
+  color: #d4af37 !important;
+  font-family: var(--heading-font) !important;
+}
+
+.page-event .event-boarding-card dt {
+  color: #a0aec0 !important;
+}
+
+.page-event .event-boarding-card dd {
+  color: #ffffff !important;
+}
+
+.page-event .event-boarding-card p {
+  color: #a0aec0 !important;
+}
+
+/* Food menu on event page */
+.page-event .event-food-menu {
+  color: #e5e0d8 !important;
+}
+
+.page-event .event-food-menu h2 {
+  color: #d4af37 !important;
+  font-family: var(--heading-font) !important;
+}
+
+.page-event .event-food-menu-eyebrow {
+  color: #d4af37 !important;
+}
+
+.page-event .event-food-menu-intro p {
+  color: #a0aec0 !important;
+}
+
+.page-event .event-food-menu-card {
+  background: #111114 !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  color: #e5e0d8 !important;
+}
+
+.page-event .event-food-menu-card h3 {
+  color: #d4af37 !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+.page-event .event-food-menu-card ul,
+.page-event .event-food-menu-card li {
+  color: #e5e0d8 !important;
+}
+
+.page-event .event-food-menu-card li::marker {
   color: #d4af37 !important;
 }
 
@@ -6400,9 +6575,18 @@ button[type="submit"],
 /* ==========================================================================
    USER REQUESTED OVERRIDES
    ========================================================================== */
-/* Food menu notice text color -> Blue */
-.event-food-menu-notice {
-  color: #3b82f6 !important; /* Blue color that is legible on dark */
+/* Food menu notice high-contrast styling */
+.event-food-menu-notice,
+.page-event .event-food-menu-notice {
+  background: rgba(212, 175, 55, 0.1) !important;
+  border: 1px solid rgba(212, 175, 55, 0.35) !important;
+  border-left: 4px solid #d4af37 !important;
+  border-radius: 10px !important;
+  color: #ffffff !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  line-height: 1.6 !important;
+  padding: 16px 20px !important;
 }
 
 /* Force font-medium (500) globally */
@@ -6626,7 +6810,8 @@ button *,
 }
 
 /* Ensure home and event pages start exactly at the top (underneath the transparent floating header) */
-.page-home, .page-event {
+.page-home,
+.page-event {
   margin-top: 0 !important;
   padding-top: 0 !important;
 }
