@@ -905,7 +905,7 @@ body {
 }
 .qr-ticket > p {
   margin: 0 0 20px;
-  color: #65758b;
+  color: #ab8e0d;
   line-height: 1.6;
 }
 .qr-ticket svg:not(.ticket-state svg) {
@@ -7504,5 +7504,525 @@ video {
     transform: none !important;
   }
 }
+
+/* ==========================================================================
+   TICKETS, ORDERS, SUCCESS, CHECKOUT & PAYMENT - HIGH CONTRAST LUXURY THEME
+   ========================================================================== */
+
+/* --- 1. SUCCESS PAGE (/success) --- */
+.success-page {
+  color: #e5e0d8 !important;
+}
+
+.success-card {
+  background: #111114 !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.6) !important;
+  border-radius: 20px !important;
+  padding: 48px 40px !important;
+  color: #e5e0d8 !important;
+}
+
+.success-card > svg {
+  color: #d4af37 !important;
+  filter: drop-shadow(0 0 12px rgba(212, 175, 55, 0.4));
+}
+
+.success-card h1 {
+  color: #ffffff !important;
+  font-family: var(--heading-font) !important;
+  font-weight: 700 !important;
+  margin: 14px 0 !important;
+}
+
+.success-card > p {
+  color: #a0aec0 !important;
+  font-size: 15px !important;
+  line-height: 1.65 !important;
+}
+
+.success-card dl {
+  gap: 14px !important;
+  margin: 28px 0 !important;
+}
+
+.success-card dl div {
+  background: rgba(255, 255, 255, 0.03) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 12px !important;
+  padding: 16px !important;
+}
+
+.success-card dt {
+  color: #8b9bb4 !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
+}
+
+.success-card dd {
+  color: #ffffff !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  margin-top: 6px !important;
+}
+
+.success-actions .MuiButton-contained {
+  background: linear-gradient(135deg, #d4af37, #b8962c) !important;
+  color: #080c13 !important;
+  font-weight: 700 !important;
+  border: 0 !important;
+  box-shadow: 0 4px 18px rgba(212, 175, 55, 0.3) !important;
+}
+
+.success-actions .MuiButton-contained:hover {
+  background: linear-gradient(135deg, #f0c75e, #d4af37) !important;
+  box-shadow: 0 6px 24px rgba(212, 175, 55, 0.5) !important;
+}
+
+/* --- 2. TICKETS & ORDERS (/tickets, /orders) --- */
+.page-tickets,
+.wallet-dashboard,
+.wallet-access-shell {
+  color: #e5e0d8 !important;
+}
+
+.wallet-dashboard {
+  background: #111114 !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 18px !important;
+  overflow: hidden !important;
+}
+
+.wallet-orders {
+  background: #15151a !important;
+  border-right: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+.wallet-orders-head h2 {
+  color: #d4af37 !important;
+  font-family: var(--heading-font) !important;
+  font-weight: 700 !important;
+}
+
+.wallet-orders-head span {
+  color: #a0aec0 !important;
+}
+
+.wallet-order-card {
+  background: rgba(255, 255, 255, 0.03) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  color: #e5e0d8 !important;
+  transition: all 0.2s ease !important;
+}
+
+.wallet-order-card:hover {
+  background: rgba(255, 255, 255, 0.06) !important;
+  border-color: rgba(212, 175, 55, 0.3) !important;
+}
+
+.wallet-order-card.selected {
+  background: rgba(212, 175, 55, 0.1) !important;
+  border-color: #d4af37 !important;
+  box-shadow: 0 0 16px rgba(212, 175, 55, 0.15) !important;
+}
+
+.wallet-order-card strong {
+  color: #ffffff !important;
+  font-size: 15px !important;
+}
+
+.wallet-order-card small {
+  color: #8b9bb4 !important;
+}
+
+.wallet-order-card em {
+  color: #d4af37 !important;
+}
+
+.wallet-main {
+  background: #111114 !important;
+}
+
+.wallet-title h1,
+.wallet-heading h1 {
+  color: #ffffff !important;
+  font-family: var(--heading-font) !important;
+  font-weight: 700 !important;
+}
+
+.wallet-title p,
+.wallet-heading p {
+  color: #a0aec0 !important;
+  font-size: 15px !important;
+}
+
+.wallet-tabs {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+.wallet-tabs span {
+  color: #8b9bb4 !important;
+}
+
+.wallet-tabs span.active {
+  color: #d4af37 !important;
+  border-bottom: 2px solid #d4af37 !important;
+  font-weight: 600 !important;
+}
+
+.wallet-ticket-stack {
+  background: rgba(255, 255, 255, 0.02) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 14px !important;
+}
+
+.wallet-order-summary {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+  color: #e5e0d8 !important;
+}
+
+.wallet-order-summary strong {
+  color: #ffffff !important;
+}
+
+.wallet-order-summary small {
+  color: #a0aec0 !important;
+}
+
+.wallet-order-summary b {
+  color: #d4af37 !important;
+}
+
+.wallet-ticket {
+  background: rgba(255, 255, 255, 0.03) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  color: #e5e0d8 !important;
+  border-radius: 12px !important;
+}
+
+.wallet-ticket.selected {
+  background: rgba(212, 175, 55, 0.08) !important;
+  border-color: #d4af37 !important;
+}
+
+.wallet-ticket > span strong {
+  color: #ffffff !important;
+}
+
+.wallet-ticket > span small,
+.wallet-ticket > span em {
+  color: #a0aec0 !important;
+}
+
+.ticket-quantity {
+  background: rgba(255, 255, 255, 0.04) !important;
+  color: #d4af37 !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+.show-qr,
+.wallet-ticket.selected .show-qr {
+  background: linear-gradient(135deg, #d4af37, #b8962c) !important;
+  color: #080c13 !important;
+  font-weight: 700 !important;
+  border: 0 !important;
+}
+
+.access-panel {
+  background: #111114 !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 16px !important;
+  padding: 32px !important;
+}
+
+.access-panel .MuiButton-contained {
+  background: linear-gradient(135deg, #d4af37, #b8962c) !important;
+  color: #080c13 !important;
+  font-weight: 700 !important;
+}
+
+/* Journey steps inside wallet */
+.booking-journey {
+  background: rgba(255, 255, 255, 0.02) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 14px !important;
+}
+
+.booking-journey h2 {
+  color: #d4af37 !important;
+}
+
+.booking-step {
+  color: #e5e0d8 !important;
+}
+
+.booking-step strong {
+  color: #ffffff !important;
+}
+
+.booking-step p {
+  color: #a0aec0 !important;
+}
+
+.booking-step span {
+  background: rgba(212, 175, 55, 0.12) !important;
+  color: #d4af37 !important;
+  border: 1px solid rgba(212, 175, 55, 0.3) !important;
+}
+
+/* --- 3. CHECKOUT & BOOKING FLOW (/checkout) --- */
+.checkout-heading h1 {
+  color: #ffffff !important;
+  font-family: var(--heading-font) !important;
+  font-weight: 700 !important;
+}
+
+.booking-panel,
+.map-panel,
+.content-panel {
+  background: #111114 !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 18px !important;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5) !important;
+  color: #e5e0d8 !important;
+}
+
+.booking-panel h2,
+.map-panel h2 {
+  color: #d4af37 !important;
+  font-family: var(--heading-font) !important;
+  font-weight: 700 !important;
+}
+
+.booking-panel .muted,
+.map-panel .muted {
+  color: #a0aec0 !important;
+}
+
+.field-label {
+  color: #e5e0d8 !important;
+  font-weight: 600 !important;
+}
+
+.zone-options button {
+  background: rgba(255, 255, 255, 0.03) !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  border-radius: 12px !important;
+  color: #e5e0d8 !important;
+  transition: all 0.25s ease !important;
+}
+
+.zone-options button:hover:not(:disabled) {
+  border-color: rgba(212, 175, 55, 0.5) !important;
+  background: rgba(212, 175, 55, 0.06) !important;
+}
+
+.zone-options button.active {
+  background: rgba(212, 175, 55, 0.12) !important;
+  border-color: #d4af37 !important;
+  box-shadow: 0 0 16px rgba(212, 175, 55, 0.2) !important;
+}
+
+.zone-options strong {
+  color: #ffffff !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;
+}
+
+.zone-options small {
+  color: #8b9bb4 !important;
+  font-size: 12px !important;
+}
+
+.zone-options b {
+  color: #d4af37 !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+}
+
+.zone-remaining {
+  color: #a0aec0 !important;
+  font-size: 12px !important;
+}
+
+.counter button {
+  border: 1px solid rgba(212, 175, 55, 0.3) !important;
+  background: rgba(255, 255, 255, 0.04) !important;
+  color: #d4af37 !important;
+  border-radius: 8px !important;
+}
+
+.counter button:hover:not(:disabled) {
+  background: rgba(212, 175, 55, 0.15) !important;
+}
+
+.counter output {
+  color: #ffffff !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+}
+
+.price {
+  color: #d4af37 !important;
+  font-size: 26px !important;
+  font-weight: 700 !important;
+}
+
+.booking-account {
+  background: rgba(255, 255, 255, 0.03) !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 12px !important;
+}
+
+.booking-account span {
+  color: #8b9bb4 !important;
+  font-size: 12px !important;
+}
+
+.booking-account strong {
+  color: #ffffff !important;
+  font-size: 15px !important;
+}
+
+.booking-account small {
+  color: #a0aec0 !important;
+  font-size: 13px !important;
+}
+
+.consent {
+  color: #8b9bb4 !important;
+  font-size: 13px !important;
+  line-height: 1.5 !important;
+}
+
+.booking-login-prompt {
+  background: rgba(212, 175, 55, 0.08) !important;
+  border-left: 3px solid #d4af37 !important;
+  color: #e5e0d8 !important;
+  border-radius: 8px !important;
+}
+
+.flow-empty {
+  background: #111114 !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 18px !important;
+  color: #e5e0d8 !important;
+  padding: 40px !important;
+  text-align: center !important;
+}
+
+.flow-empty h1 {
+  color: #ffffff !important;
+  font-family: var(--heading-font) !important;
+}
+
+.flow-empty p {
+  color: #a0aec0 !important;
+}
+
+/* --- 4. PAYMENT PAGE (/payment) --- */
+.payment-instructions,
+.payment-summary-card {
+  background: #111114 !important;
+  border: 1px solid rgba(255, 255, 255, 0.08) !important;
+  border-radius: 18px !important;
+  color: #e5e0d8 !important;
+}
+
+.flow-heading h1 {
+  color: #ffffff !important;
+  font-family: var(--heading-font) !important;
+}
+
+.flow-heading p {
+  color: #a0aec0 !important;
+}
+
+.payment-section-title span {
+  color: #d4af37 !important;
+}
+
+.payment-section-title h2,
+.payment-summary-card h2 {
+  color: #ffffff !important;
+  font-family: var(--heading-font) !important;
+  font-weight: 700 !important;
+}
+
+.payment-qr-content {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+.payment-qr-content strong {
+  color: #ffffff !important;
+  font-size: 18px !important;
+}
+
+.payment-qr-content p {
+  color: #a0aec0 !important;
+}
+
+.payment-amount {
+  color: #d4af37 !important;
+  font-weight: 700 !important;
+}
+
+.payment-qr-content small {
+  color: #8b9bb4 !important;
+}
+
+.payment-order-summary {
+  color: #8b9bb4 !important;
+}
+
+.payment-order-summary b {
+  color: #ffffff !important;
+}
+
+.payment-upload {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+.payment-upload h3 {
+  color: #ffffff !important;
+}
+
+.payment-upload p,
+.payment-upload span {
+  color: #a0aec0 !important;
+}
+
+.payment-summary-note {
+  background: rgba(212, 175, 55, 0.06) !important;
+  border: 1px solid rgba(212, 175, 55, 0.25) !important;
+  color: #e5e0d8 !important;
+}
+
+/* Stepper on flow pages */
+.flow-steps {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
+}
+
+.flow-step {
+  color: #8b9bb4 !important;
+}
+
+.flow-step span {
+  border-color: rgba(255, 255, 255, 0.2) !important;
+  color: #8b9bb4 !important;
+}
+
+.flow-step.active {
+  color: #d4af37 !important;
+}
+
+.flow-step.active span {
+  background: #d4af37 !important;
+  color: #080c13 !important;
+  border-color: #d4af37 !important;
+}
+
 
 
